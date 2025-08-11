@@ -1,0 +1,39 @@
+body{
+    color:rgb(255, 255, 255);background-color:#ffffff;
+    line-height: 1.6rem;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: #f15af1;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 grey ,0 4px 8px 0 grey;
+}
+
+main{
+    font-size: 1rem;
+    padding: 2rem 5rem;
+    border-radius: 1rem;
+    background-image: url('background-a.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: inline-block; 
+    box-shadow: 0 4px 8px 0 grey ,0 4px 8px 0 grey;
+}
+#name{
+    border-radius: 1rem;padding: 0.4rem;
+}
+#password{
+    border-radius: 1rem;padding: 0.4rem;
+}
+
+footer{
+    padding: 1rem;
+    background-color:#f15af1 ;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 grey ,0 4px 8px 0 grey;
+}
