@@ -1,1 +1,1 @@
-web: gunicorn app:kim
+web: gunicorn kim : app
