@@ -12,14 +12,14 @@ h1{
     font-size: 3rem;
     color:rgb(255, 255, 255);
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 1rem;text-wrap: wrap; 
 }
 
 #error{
     background-color: rgb(232, 69, 40);border-radius: 2rem;
 }
 #welcome {
-    color: rgb(4, 113, 160); font-size: 2rem; font-weight: bold;  padding:0rem; 
+    color: rgb(4, 113, 160); font-size: 2rem; font-weight: bold;  padding:0rem;
 }
 span{
     color: black;
