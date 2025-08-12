@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="name">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="author" content="PANCRAS kim-rio">
+        <title>kim-rio</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='home.css')}}">
+    </head>
+    <body>
+        <header>
+            <h1>PROTOTYPE &nbsp; <span>X</span></h1>
+        </header>
+        <main>
+            <p id="welcome">Welcome back!</p>
+
+            {%if error%}
+            <p id="error">{{error}}</p>
+            {%endif%}
+
+            <form action="/login" method="post">
+                <label for="username" >Your Username</label><br>
+                <input type="text" id="username" name="username" placeholder="kim_rio" size="40" required><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="******" size="40" required><br><br>
+                <input type="submit" id="login" value="Log in">
+            </form>
+        </main>
+        <footer>
+            <p>&copy; panky 2025</p>
+        </footer>
+    </body>
+</html>

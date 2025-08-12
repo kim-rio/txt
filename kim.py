@@ -1,30 +1,26 @@
-from os import name
-from flask import Flask, redirect,render_template, request
+from os import error
+from flask import Flask,render_template,request
 
 app=Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('home.html')
 
-@app.route("/details", methods=["GET","POST"])
-def details():
+@app.route('/login',methods=['GET','POST'])
+def login():
     if request.method == 'POST':
-        name = request.form.get('name')
-        password = request.form.get('password')
+        username=request.form.get('username')
+        password=request.form.get('password')
         
-        if name.isalpha():
-           if name.lower() == 'pancras':
-              if password == '111':
-                  return render_template('page.html' ) 
-                  
-              else:
-                  return render_template('index.html' ,outcome = "Wrong password <br> try again" ) 
-              
+        if username == 'user_03' and password == '1234':
+            return render_template('page.html')
         else:
-            return render_template('index.html' ,outcome = "Username contain only letters " ) 
-           
-    return render_template("index.html")           
-       
-if __name__ == "__main__":
+            return render_template('home.html',error='Invalid username or passord')
+     
+    else:
+        return render_template('home.html')    
+            
+
+if __name__ == '__main__':
     app.run(debug=True)
