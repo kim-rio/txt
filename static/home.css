@@ -40,7 +40,7 @@ input{
     padding: 0.7rem 1rem;border-radius: 0.7rem;border: 0rem;text-align: center;background-color: rgb(219, 210, 210);color:black;
 }
 label{
-    float: left; color:black;
+    text-align: left; color:black;
 }
 
 #login{
