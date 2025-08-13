@@ -40,11 +40,11 @@ input{
     padding: 0.3rem 0.6rem;border-radius: 0.7rem;border: 0rem;background-color: rgb(219, 210, 210);color:black;
 }
 label{
-    float: left; color:black;
+    float:inline-start; color:black;
 }
 
 #login{
-    background-color: rgb(16, 164, 228);border-radius: 2rem; padding-inline: 6.6rem;
+    background-color: rgb(16, 164, 228);border-radius: 2rem; padding: 0.6rem 1rem;
 }
 
 footer{
