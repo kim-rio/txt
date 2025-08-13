@@ -4,13 +4,15 @@ body{
     background-color: white;
     line-height: 1.6rem;
     text-align: center;
+    margin: 2rem;
 }
 h1{
+    display: flex;flex-wrap: wrap;justify-content: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
     color:rgb(4, 113, 160);
     padding: 2rem;
-    border-radius: 1rem;text-wrap: wrap; 
+    border-radius: 1rem;
 }
 
 #error{
@@ -46,6 +48,7 @@ label{
 }
 
 footer{
+    color: black;
     padding: 1rem;
     margin-top: 2rem;
     border-radius: 1rem;
