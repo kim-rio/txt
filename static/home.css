@@ -10,25 +10,25 @@ h1{
     display: flex;flex-wrap: wrap;justify-content: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
-    color:rgb(4, 113, 160);
+    color:rgb(16, 164, 228);
     padding: 2rem;
     border-radius: 1rem;
 }
 
 #error{
-    background-color: rgb(232, 69, 40);border-radius: 2rem;
+    background-color: rgb(232, 69, 40);border-radius: 0.5rem;
 }
 #welcome {
-    color: rgb(4, 113, 160); font-size: 2rem; font-weight: bold;  padding:0rem;
+    color: rgb(16, 164, 228); font-size: 2rem; font-weight: bold;  padding:0rem;
 }
 span{
     color:rgb(0, 0, 0);
 }
 
 main{background-color: rgb(255, 255, 255);
-    display: flex;justify-content: center;
+    display:inline-block;
     line-height: 2rem;
-    font-size: 1rem;margin: 0 auto;width: max-content;
+    font-size: 1rem;
     padding: 1rem 2rem;
     border-radius: 1rem; 
     box-shadow: 0 4px 8px 0 rgb(128, 125, 125) ,0 4px 8px 0 rgb(128, 125, 125) ;
@@ -37,14 +37,14 @@ form{
     line-height: 2rem;
 }
 input{
-    padding: 0.7rem 1rem;border-radius: 0.7rem;border: 0rem;text-align: center;background-color: rgb(219, 210, 210);color:black;
+    padding: 0.3rem 0.6rem;border-radius: 0.7rem;border: 0rem;background-color: rgb(219, 210, 210);color:black;
 }
 label{
-    text-align: left; color:black;
+    float: left; color:black;
 }
 
 #login{
-    background-color: rgb(4, 113, 160);font-size: 1rem;border-radius: 2rem;
+    background-color: rgb(16, 164, 228);border-radius: 2rem; padding-inline: 6.6rem;
 }
 
 footer{
