@@ -15,13 +15,13 @@
             <h1>PROTOTYPE &nbsp; <span>X</span></h1>
         </header>
         <main>
-            <p id="welcome">Welcome back!</p>
+            
+
+            <form action="/login" method="post"><p id="welcome">Welcome back!</p>
 
             {%if error%}
             <p id="error">{{error}}</p>
             {%endif%}
-
-            <form action="/login" method="post">
                 <label for="username" >Your Username</label><br>
                 <input type="text" id="username" name="username" placeholder="kim_rio" size="40" required><br>
                 <label for="password">Password</label><br>
