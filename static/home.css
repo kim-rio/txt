@@ -1,16 +1,14 @@
 body{
     overflow: auto;
     color:rgb(255, 255, 255);
-    background-image: url('background-a.jpeg');
-    background-size: cover;
-    background-position: center;
+    background-color: white;
     line-height: 1.6rem;
     text-align: center;
 }
 h1{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
-    color:rgb(255, 255, 255);
+    color:rgb(4, 113, 160);
     padding: 2rem;
     border-radius: 1rem;text-wrap: wrap; 
 }
@@ -22,25 +20,25 @@ h1{
     color: rgb(4, 113, 160); font-size: 2rem; font-weight: bold;  padding:0rem;
 }
 span{
-    color: black;
+    color:rgb(0, 0, 0);
 }
 
-main{background-color: rgb(0, 0, 0);
+main{background-color: rgb(255, 255, 255);
     display: inline-block;
     line-height: 2rem;
     font-size: 1rem;
     padding: 1rem 2rem;
     border-radius: 1rem; 
-    box-shadow: 0 4px 8px 0 rgb(46, 46, 46) ,0 4px 8px 0 rgb(46, 46, 46) ;
+    box-shadow: 0 4px 8px 0 rgb(128, 125, 125) ,0 4px 8px 0 rgb(128, 125, 125) ;
 }
 form{
     line-height: 2rem;
 }
 input{
-    padding: 0.7rem 1rem;border-radius: 0.7rem;border: 0rem;text-align: center;background-color: rgb(63, 69, 71);color:white;
+    padding: 0.7rem 1rem;border-radius: 0.7rem;border: 0rem;text-align: center;background-color: rgb(219, 210, 210);color:black;
 }
 label{
-    float: left; color: rgb(255, 255, 255);
+    float: left; color:black;
 }
 
 #login{
